@@ -1,0 +1,11 @@
+gradio
+opencv-python-headless
+easyocr
+moviepy
+pillow
+numpy
+scipy
+coqui-tts
+face_recognition
+torch
+torchvision

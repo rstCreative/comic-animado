@@ -1,0 +1,9 @@
+trabajo/
+realesrgan_ncnn/
+*.mp4
+*.wav
+*.png
+!README_assets/*.png
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
