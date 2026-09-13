@@ -1,0 +1,14 @@
+gradio
+opencv-python-headless
+easyocr
+moviepy
+pillow
+numpy
+scipy
+coqui-tts
+transformers==4.57.6
+face_recognition
+torch
+torchvision
+diffusers
+accelerate
