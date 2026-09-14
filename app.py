@@ -20,6 +20,11 @@ import subprocess
 import cv2
 import numpy as np
 import torch
+import torch.hub
+# Evita el prompt interactivo "¿confías en este repositorio? (y/N)" que bloquea
+# todo en un entorno sin consola (como aquí) — aplica a TODAS las descargas de
+# torch.hub, incluidas las que MiDaS dispara internamente para sus submódulos.
+torch.hub._check_repo_is_trusted = lambda *a, **k: None
 import gradio as gr
 from PIL import Image, ImageEnhance
 
