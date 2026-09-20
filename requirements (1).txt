@@ -1,0 +1,17 @@
+# requirements.txt — Generador de Personajes Manga/Anime (Qwen-Image + LoRA)
+# Commit fijado: a3e0b8ec235c27a6c17a21976daf7fd32d819d05 == diffusers 0.41.0.dev0
+git+https://github.com/huggingface/diffusers.git@a3e0b8ec235c27a6c17a21976daf7fd32d819d05
+
+gradio
+torch
+opencv-python-headless
+numpy
+Pillow
+rembg
+mediapipe
+accelerate
+transformers
+peft
+safetensors
+sentencepiece
+huggingface_hub
